@@ -12,7 +12,9 @@ fn main() {
 
     max_calories.sort_unstable();
 
-    println!("{:?}", max_calories.into_iter().rev().take(1).sum::<i32>());
+    println!("{:?}", max_calories.into_iter().rev().take(3).sum::<i32>());
+
+    //    println!("{:?}", max_calories.into_iter().rev().take(1).sum::<i32>());
 }
 
 fn read_file_from_args(args: &[String]) -> String {
